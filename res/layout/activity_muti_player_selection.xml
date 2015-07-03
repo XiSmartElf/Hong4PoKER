@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/singleselectionback"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+>
+
+    <Button
+        android:id="@+id/startAgame"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:text="Start a game (indevelopment)"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/joinAgame"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:text="Join a game (indevelopment)"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

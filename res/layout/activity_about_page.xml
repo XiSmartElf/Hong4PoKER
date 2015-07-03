@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hong4 Poker is a local poker game from Xi'an China. I am developing this game only for fun in my spare time. It now supports playing against 1 NPC. 
+        The rest of the features of the game are still under development including bluetooth multiplayers mode   -Xi He 
+              Game Rule: Whoever has heart 4 starts first. who has no card first wins. cards given by the player have to be bigger than previous given cards from opponents, otherwise the player has to quit for that round.
+        The player can give single card. The smallest to the biggest is 4,5,6,7,8,9,10,J,Q,k,1,2,3 The player can give 2 same cards, smallest is 4,4. 
+        The biggest is 3,3(same as single card). The player can give 3 same cards, the smallest is 4,4,4(same as single card).The player can give 4 same cards, the smallest is 4,4,4,4(same as single card).
+         The player can also give string cards(can be 3 cards, 4cards,5cards,6cards.etc.AND DON'T INCLUDE 1,2,3).
+         3 string cards from smallest to biggest: 345, 456,567... 10JQ,JQK. 4 string cards: 4567, 5678, ....10JQK. 5 string cards, 6 string cards.etc have the same concept." 
+        />
+
+</LinearLayout>

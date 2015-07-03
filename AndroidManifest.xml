@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hong4poker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ 
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LaunchActivity"
+            android:label="@string/title_activity_launch"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SingleModeSelectionActivity"
+            android:label="@string/title_activity_single_mode_selection"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.hong4poker.SINGLEMODESELECTIONACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutPage"
+            android:label="@string/title_activity_about_page"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.hong4poker.ABOUTPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".prefs"
+            android:label="@string/title_prefs"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.hong4poker.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oneSingleGamingActivity"
+            android:label="@string/title_activity_single_gaming"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.example.hong4poker.ONESINGLEGAMINGACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MutiPlayerSelection"
+            android:label="@string/title_activity_muti_player_selection"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.hong4poker.MUTIPLAYERSELECTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StartAnewGame"
+            android:label="@string/title_activity_start_anew_game" 
+            android:screenOrientation="portrait" >
+             <intent-filter>
+                <action android:name="com.example.hong4poker.STARTANEWGAME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+	
+</manifest>

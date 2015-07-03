@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hong4 PoKER</string>
+    <string name="title_activity_launch">Hong4 PoKER</string>
+    <string name="title_activity_single_mode_selection">Single Player Mode</string>
+    <string name="title_activity_about_page">About Hong4 PoKER</string>
+    <string name="title_prefs">Preference Settings</string>
+    <string name="title_activity_single_gaming">SingleGamingActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_muti_player_selection">MutiPlayerSelection</string>
+    <string name="title_activity_start_anew_game">StartAnewGame</string>
+
+</resources>
